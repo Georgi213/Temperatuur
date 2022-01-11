@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    align-items: center;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#fre{
+    margin: auto;
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+@media screen and (min-width:1400px){
+    #left{
+        width: 25%;
+        margin-left: 8%;
+    }
+    #rig{
+        width: 25%;
+        margin-right: 4%;
+    }
+}
+body{
+    background-color: teal;
+    font-family: "Times New Roman",cursive;
+
+}
+.header{
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+}
+th,td{
+    padding: 15px;
+    border: black solid 3px;
+}
+table{
+    text-align: center;
+    width: 100%;
+    border: solid black 2px;
+    border-collapse: collapse;
+}
+form dt{
+    font-weight: bold;
+
+}
+form input[type=submit]{
+    border-radius: 10px;
+    border: teal;
+    background-color: teal;
+}
+form input[type=number]{
+    width: 75px;
+    border-radius: 1px;
+    font-family: inherit;
+}
+form select, input[type=text]{
+    border-radius: 1px;
+    font-family: inherit;
+}
+a{
+    color: lightblue;
+}
+a:hover{
+    font-weight: bold;
+}* {
+    box-sizing: border-box;
+}
+
+.column {
+    align-items: center;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#fre{
+    margin: auto;
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+@media screen and (min-width:1400px){
+    #left{
+        width: 25%;
+        margin-left: 8%;
+    }
+    #rig{
+        width: 25%;
+        margin-right: 4%;
+    }
+}
+body{
+    background-color: teal;
+    font-family: "Times New Roman",cursive;
+
+}
+.header{
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+}
+th,td{
+    padding: 15px;
+    border: black solid 3px;
+}
+table{
+    text-align: center;
+    width: 100%;
+    border: solid black 2px;
+    border-collapse: collapse;
+}
+form dt{
+    font-weight: bold;
+
+}
+form input[type=submit]{
+    border-radius: 10px;
+    border: teal;
+    background-color: teal;
+}
+form input[type=number]{
+    width: 75px;
+    border-radius: 1px;
+    font-family: inherit;
+}
+form select, input[type=text]{
+    border-radius: 1px;
+    font-family: inherit;
+}
+a{
+    color: lightblue;
+}
+a:hover{
+    font-weight: bold;
+}

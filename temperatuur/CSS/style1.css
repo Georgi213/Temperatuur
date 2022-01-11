@@ -1,0 +1,254 @@
+table, td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 27%;
+}
+label {
+    color: black;
+    font-family: "Times New Roman";
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin-left: 6%;
+}
+
+th, td {
+    padding: 15px;
+}
+body {
+    font-family: Times New Roman;
+    padding: 18px;
+    background: Teal;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 5px;
+    text-align: center;
+    background: white;
+}
+
+.header h1 {
+    font-size: 100px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: dimgray;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: inline-block;
+    color: darkgray;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: darkgrey;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 50%;
+}
+input[type=text], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+[type=button] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+.container {
+    padding: 16px;
+}
+img.avatar {
+    width: 10%;
+    border-radius: 50%;
+}
+[type=button]:hover {
+    background-color: #45a049;
+}
+div {
+    border-radius: 5px;
+    background-color: Teal;
+    padding: 20px;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 35%;
+    background-color: green;
+    color:cyan;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: grey;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card, section {
+    background-color: blue;
+    padding: 20px;
+    margin-top: 20px;
+    border: solid 2px saddlebrown;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: blue;
+    margin-top: 25px;
+}
+canvas#plate {
+    width: 250px;
+    height: 250px;
+}
+fieldset
+{
+    font-size:12px;
+    padding:10px;
+    width:250px;
+    line-height:1.8;
+}
+legend
+{
+    color: #B4886B;
+    font-weight: bold;
+    display: block;
+    width: 150px;
+    float: left;
+}
+input[type=number]
+{
+    width: 55px;
+    height: 42px;
+    line-height: 1.65;
+    float: left;
+    display: block;
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+    border: 1px solid blue;
+}
+select{
+    width: 100%;
+    min-width: 15ch;
+    max-width: 30ch;
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #2978b2;
+    background-image: linear-gradient(to top, #989898, #797777 33%);
+}
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: blue;
+}
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+/* Modal Footer */
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: orange;
+}
+.animate{
+    -webkit-animation:animatezoom 0.6s;
+    animation:animatezoom 0.6s;
+}
+* {
+    box-sizing: border-box;
+    margin:15px;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: orange;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
